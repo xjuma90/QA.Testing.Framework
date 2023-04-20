@@ -30,6 +30,7 @@ namespace QA.Testing.Framework.PageObjects
             driver.FindElement(signUpBtn).Click();
         }
 
+
         public void ValidateSignUpPopUpIsDisplayed()
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
