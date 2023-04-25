@@ -1,0 +1,15 @@
+﻿{
+  "Environment": "PROD",
+
+  "BrowserType": "Chrome",
+
+  "LogLevel": "All",
+
+  "DriverOptionArguments": [
+    "--window-size=1920,1080",
+    "--window-position=0,0",
+    "--disable-extensions",
+    "--incognito"
+  ]
+
+}
